@@ -42,16 +42,12 @@ class HomeActivity : AppCompatActivity() {
                 Surface(
                     modifier = Modifier.fillMaxSize()
                 ) {
-                    Column(modifier = Modifier
-                        .fillMaxWidth()
-                        .background(Color.Gray)) {
                         HomeField()
                     }
                 }
             }
         }
     }
-}
 
 @Composable
 fun HomeField() {
